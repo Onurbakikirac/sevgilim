@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgilime Özel 💌</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="letter">
+            <p id="love-message">
+                Sevdiğim, parmaklarının tenimde bıraktığı izleri özlüyorum. Dudaklarının sıcaklığı aklımda...
+            </p>
+            <button onclick="openLetter()">❤️ Mektubu Aç ❤️</button>
+        </div>
+
+        <div class="heartbeat-container" onclick="showMessage()">
+            <div class="heart"></div>
+            <p id="random-message"></p>
+        </div>
+
+        <div class="card-maker">
+            <h2>Kendi Kartını Yap 💌</h2>
+            <textarea id="customMessage" placeholder="Buraya mesajını yaz..."></textarea>
+            <button onclick="createCard()">Kartı Göster</button>
+            <div id="cardOutput"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
